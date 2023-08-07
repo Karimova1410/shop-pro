@@ -1,0 +1,36 @@
+.main-banner{
+  position: relative;
+  max-width: 950px;
+  padding: 0px 26px 0px 36px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+  border-radius: 6px;
+  background-color: #191919;
+  // border: 1px solid red;
+  &-bg{
+    position: absolute;
+    right: 40px;
+    bottom: -19px;
+  }
+  &-title{
+    font-size: 116px;
+    font-weight: 900;
+    color: #212123;
+    margin-bottom: 9px;
+  }
+  &-text{
+    // border: 1px solid red;
+    max-width: 481px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #616e74;
+    margin-bottom: 85px;
+    p{
+      font-size: 42px;
+      font-weight: 700;
+      color: #f6f7f7;
+      text-transform: uppercase;
+      margin-bottom: 24px;
+    }
+  }
+}

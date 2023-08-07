@@ -1,0 +1,24 @@
+.side-bar {
+	border-radius: 6px;
+	min-width: 303px;
+	// min-height: 500px;
+	background-color: #191919;
+	padding: 24px;
+	margin-bottom: 20px;
+	display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+	.help-links {
+		display: flex;
+		justify-content: space-between;
+
+		a {
+			color: #576067;
+			text-decoration: none;
+		}
+	}
+	ul li {
+		padding: px !important;
+	}
+}
+

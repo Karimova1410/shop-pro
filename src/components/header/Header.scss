@@ -1,0 +1,34 @@
+header {
+	padding: 20px 24px;
+
+	display: flex;
+	justify-content: space-between;
+	// border: 1px solid red;
+
+	.logo {
+		min-width: 304px;
+		// border: 1px solid blue ;
+	}
+	.header-right {
+		flex-grow: 1;
+		display: flex;
+		justify-content: space-between;
+		// border: 1px solid yellow ;
+		align-items: center;
+		.actions {
+			display: flex;
+			column-gap: 20px;
+		}
+		.user {
+			width: 36px;
+			height: 36px;
+			border-radius: 50%;
+			background-color: #191919;
+			// align-items: center;
+			text-align: center;
+			img {
+				padding-top: 8px;
+			}
+		}
+	}
+}

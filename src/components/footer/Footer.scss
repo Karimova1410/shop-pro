@@ -1,0 +1,21 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	// width: 1274px;
+	height: 73px;
+	background-color: #191919;
+	padding: 24px 24px;
+	align-items: center;
+  border-radius: 6px;
+	&-links {
+		img {
+			vertical-align: bottom;
+		}
+    display: flex;
+		column-gap: 20px;
+	}
+	p {
+		color: #576067;
+	}
+
+}

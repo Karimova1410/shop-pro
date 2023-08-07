@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+ul li {
+	font-family: "Montserrat", sans-serif !important;
+}
+body {
+  background-color: #212123;
+  font-family: "Montserrat", sans-serif !important;
+}
+.container {
+	max-width: 1274px;
+	margin: auto;
+}

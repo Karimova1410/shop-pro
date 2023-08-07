@@ -1,0 +1,48 @@
+.sale-banner {
+	display: flex;
+	justify-content: space-between;
+	width: 1274px;
+	height: 570px;
+	background-color: #191919;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	.r-sale {
+		background-image: url("../../assets/Rectangle\ 14.png");
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: end;
+		padding-bottom: 24px;
+		font-size: 20px;
+		span {
+			color: #6c3eb8;
+		}
+	}
+	.l-sale {
+		position: relative;
+		color: #6c3eb8;
+		.new-year {
+			// padding: 74px 109px 0px 110px;
+			padding-left: 110px;
+			padding-top: 74px;
+			font-size: 70px;
+		}
+		.sale {
+			padding-left: 103px;
+			padding-top: 0px;
+			padding-bottom: 27px;
+			font-size: 150px;
+			font-weight: 300;
+		}
+		.boots {
+			position: absolute;
+			left: -25px;
+			top: 326px;
+		}
+		.joystick {
+			position: absolute;
+			bottom: -24px;
+			left: 385px;
+		}
+	}
+}

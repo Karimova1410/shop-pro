@@ -1,0 +1,23 @@
+.search-input {
+	&-icon {
+		position: relative;
+		margin-right: -30px;
+		z-index: 2;
+		color: #576067;
+	}
+	input {
+		width: 303px;
+		border: 0;
+		outline: 0;
+		background-color: #191919;
+		border-radius: 6px;
+		padding: 7px 10px;
+		padding-left: 40px;
+		color: #fff;
+		&::placeholder {
+			color: #b8b8b8;
+       font-family: "Montserrat", sans-serif !important;
+			// padding-left: 40px;
+		}
+	}
+}
